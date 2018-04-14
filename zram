@@ -2,3 +2,7 @@
 # of system RAM to allocate to ZRAM block devices
 # Too big, and your system will start killing off processes
 FACTOR=33
+
+# Compression method listed in /sys/block/zram0/comp_algorithm
+# Set to empty to stay with default
+COMP_ALG=lzo
